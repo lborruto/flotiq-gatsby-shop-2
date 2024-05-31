@@ -1,5 +1,5 @@
 [build]
-  command = "flotiq import . b7aaee3ef9b0707c044b30fc55767d62 && gatsby build"
+  command = "gatsby build"
   publish = "public/"
 
 [template.environment]
