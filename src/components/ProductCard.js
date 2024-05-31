@@ -11,7 +11,7 @@ const ProductCard = ({ name, description, price, productImage, buttonLabel, slug
     >
         <Link to={`/${slug}`}>
             <GatsbyImage
-                image={getImage(productImage)}
+productImage={product.productImage && product.productImage[0]}
                 alt={name}
                 className="w-full"
             />
